@@ -15,7 +15,7 @@ public class ConcurrencyTest2 extends Thread {
 			try {
 				this.wait();
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
+				// TODO Auto-generated catch block											         
 				e.printStackTrace();
 			}
 		}
